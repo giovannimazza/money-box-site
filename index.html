@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <title>MoneyBox - Know your money</title>
+  <link rel="stylesheet" href="css/landingstyle.css" />
+  <link rel="stylesheet" href="css/alert.css" />
+  <script src="js/index-script.js" defer></script>
+  <script src="js/login-script.js" defer></script>
+  <script src="js/register-script.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+
+<body>
+
+
+  <!--ALERT-->
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="loginSuccess">
+    <div class="toast-header" id="success-header">
+      <strong class="me-auto">Log in</strong>
+      <small class="text-muted"></small>
+    </div>
+    <div class="toast-body" id="success-body">Log in success.</div>
+  </div>
+
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="loginError">
+    <div class="toast-header" id="error-header">
+      <strong class="me-auto">Log in</strong>
+      <small class="text-muted"></small>
+    </div>
+    <div class="toast-body" id="error-body">Log in error.</div>
+  </div>
+  <!--ALERT-->
+
+  <div class="container">
+    <div class="left">
+      <div class="title">
+        <h1>MONEY BOX</h1>
+        <p>Know your money</p>
+      </div>
+      <img id="maialino" src="./immagini/piggy-bank-animate2.svg" alt="">
+    </div>
+    <div class="right">
+      <section class="wrapper active">
+        <div class="form signup" id="signup">
+          <header>Registrati</header>
+          <form action="#">
+            <input type="text" placeholder="Username" required id="username" />
+            <input type="text" placeholder="Indirizzo Email" required id="email" />
+            <input type="password" placeholder="Password" required id="password" />
+            <input type="password" placeholder="Conferma la password" required id="passwordConfirm" />
+            <div class="checkbox" id="checkboxField">
+              <input type="checkbox" id="signupCheck" required />
+              <label for="signupCheck">Accetto i termini e le condizioni</label>
+            </div>
+            <input type="submit" value="Registrati" id="submit" />
+          </form>
+        </div>
+        <div class="form login">
+          <header>Login</header>
+          <form action="#">
+            <input type="text" placeholder="Indirizzo Email" required id="emailLogin" />
+            <input type="password" placeholder="Password" required id="passwordLogin" s />
+            <a href="#">Forgot password?</a>
+            <input type="submit" value="Login" id="loginSubmit" />
+          </form>
+        </div>
+      </section>
+    </div>
+</body>
+
+</html>

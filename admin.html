@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <link rel="stylesheet" href="./css/admin-style.css" />
+  <title>Moneybox - Admin</title>
+</head>
+
+<body>
+  <div class="page">
+    <!--INIZIO NAVBAR-->
+    <div id="navbar" class="riquadri">
+      <a href="./home.html" class="logo"><span>MoneyBox</span></a>
+      <img src="./immagini/admin2.png" class="user-pic" onclick="toggleMenu()" />
+      <div class="menu-wrap" id="menu">
+        <div class="menu">
+          <div class="user-info">
+            <h3>Admin</h3>
+          </div>
+          <hr />
+          <a href="./home.html" class="menu-link home-btn"><i class="ri-home-2-line"></i><span>Home</span></a>
+          <a href="./index.html" class="menu-link logout-btn"><i class="ri-logout-box-line"></i><span>Logout</span></a>
+        </div>
+      </div>
+    </div>
+    <!--FINE NAVBAR-->
+
+    <!--INIZIO FORM-->
+    <div class="gestione-categorie sezioni">
+      <h2>gestione categorie</h2>
+      <hr />
+      <div class="category-container">
+        <div class="form-body">
+          <div class="form-container new">
+            <label for="nomeCategoria" class="form-label">crea nuova categoria</label>
+            <div class="form-input" id="form-input">
+              <input type="text" class="form-control" id="nomeCategoria" placeholder="Nome nuova categoria" />
+              <input type="text" class="form-control" id="urlCategoria" placeholder="URL Icona" />
+              <button type="button" class="btn btn-outline-primary" id="addNuovaCategoria">
+                Salva
+              </button>
+            </div>
+          </div>
+          <!-- <div class="spazio-vuoto"></div> -->
+          <div class="form-container icon">
+            <label for="exampleFormControlInput1" class="form-label">Elimina una categoria</label>
+            <div class="dropdown-category">
+              <select class="form-select" aria-label="Default select example" id="listaCategorie"></select>
+              <button type="button" class="btn btn-outline-secondary" id="deleteCategoria">
+                Elimina
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notify-users sezioni">
+      <h2 id="h2-notifiche">Notifiche</h2>
+      <hr />
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Invia un commento" id="floating-msg"></textarea>
+        <label for="floatingTextarea">Invia un commento</label>
+      </div>
+      <a href="#" class="btne green" id="sendEmail">invia email</a>
+    </div>
+    <div class="gestione-utenti sezioni">
+      <h2>gestione utenti</h2>
+      <hr />
+      <div class="delete-user-container">
+        <label class="form-label">Elimina un utente</label>
+        <div class="delete-user-form">
+          <input type="text" class="form-control" id="idUtente" placeholder="Id utente" />
+          <button type="button" class="btn btn-outline-secondary" id="deleteUtente">
+            Elimina
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="listaUtenti" class="sezioni">
+      <h2>lista utenti</h2>
+      <hr />
+
+      <div class="table-utenti" id="tabellaUtenti">
+
+      </div>
+      <div class="btn-report">
+        <a href="#" class="btne green" id="creaReport">Crea Report</a>
+      </div>
+
+    </div>
+  </div>
+  <script src="./js/admin-script.js"></script>
+  <script src="./js/shared.js"></script>
+</body>
+
+</html>
