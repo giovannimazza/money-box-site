@@ -26,6 +26,23 @@ If you are an Admin, you will be able to:
 ## AdminPage
 ![image](https://user-images.githubusercontent.com/122443888/223155049-ea7db365-049d-4f87-8624-c752427cbc7e.png)
 
+## Back-End Technologies
+
+* Java
+* Spring Boot
+* Spring Security
+* JWT
+* MariaDB
+* Hibernate
+* JPA
+
+## Front-End Technologies
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* JQuery
 
 ## Getting Started
 
@@ -33,7 +50,7 @@ To use MoneyBox, simply create an account, change your profile picture and start
 
 ## Help
 
-This is a Front-End display only, back-end files will not be provided, you can check out other pages adding "/home" or "/admin" at the end of the url or by checking provided screenshots.
+The site is fully functional but this is a Front-End display only, back-end files will not be provided, you can check out other pages adding "/home" or "/admin" at the end of the url or by checking provided screenshots.
 You can access to the site here: [MoneyBox](https://moneyboxfinancial.netlify.app)
 
 ## Authors
