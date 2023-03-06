@@ -33,7 +33,8 @@ To use MoneyBox, simply create an account, change your profile picture and start
 
 ## Help
 
-This is a Front-End display only, back-end files will not be provided, you can check out other pages adding "/home" or "/admin" or by checking provided screenshots.
+This is a Front-End display only, back-end files will not be provided, you can check out other pages adding "/home" or "/admin" at the end of the url or by checking provided screenshots.
+You can access to the site here: [MoneyBox](https://moneyboxfinancial.netlify.app)
 
 ## Authors
 
