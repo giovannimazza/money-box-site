@@ -19,7 +19,6 @@
           password: password,
         };
         let jsonParams = JSON.stringify(params);
-        console.log(jsonParams);
         $.ajax({
           url: `${BASE_URL}/api/auth/login`,
           contentType: 'application/json;charset=UTF-8',
