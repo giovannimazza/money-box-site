@@ -58,20 +58,22 @@ You can access to the site here: [MoneyBox](https://moneyboxfinancial.netlify.ap
 Contributors names and contact info
 
 Giovan Battista Mazza
-[@giovannimazza](https://github.com/giovannimazza)
+[@giovannimazza - GitHub](https://github.com/giovannimazza)
+[@giovanbattistamazza - LinkedIn](https://www.linkedin.com/in/giovanbattistamazza/)
 
 Sara Calandrino
-[@SaraPond](https://github.com/SaraPond)
+[@SaraPond - GitHub](https://github.com/SaraPond)
+[@saracalandrino - LinkedIn](https://www.linkedin.com/in/saracalandrino/)
 
 Giulia Pierantozzi
-[@giuliapi95](https://github.com/giuliapi95)
+[@giuliapi95 - GitHub](https://github.com/giuliapi95)
+[@giuliapierantozzi - LinkedIn](https://www.linkedin.com/in/giuliapierantozzi/)
 
 Alessandro Mosconi
 [@Sandroni92](https://github.com/Sandroni92)
+[@alessandromosconi](https://www.linkedin.com/in/alessandro-mosconi-006710224/)
 
 ## Version History
 
 * 1.0
     * Upload from the main private repository
- 
-
